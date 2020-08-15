@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "actions",
+  "info": {
+    "name": "action"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "body": {
+      "type": "richtext"
+    },
+    "entries": {
+      "via": "action",
+      "collection": "entry"
+    }
+  }
+}

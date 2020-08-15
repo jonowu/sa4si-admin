@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "entries",
+  "info": {
+    "name": "Entry"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "action": {
+      "model": "action",
+      "via": "entries"
+    },
+    "user": {
+      "via": "entries",
+      "plugin": "users-permissions",
+      "model": "user"
+    }
+  }
+}
