@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sdgs",
+  "info": {
+    "name": "SDG"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Body": {
+      "type": "richtext"
+    }
+  }
+}
