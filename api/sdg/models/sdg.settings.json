@@ -17,6 +17,10 @@
     },
     "body": {
       "type": "richtext"
+    },
+    "relatedActions": {
+      "collection": "action",
+      "via": "relatedSdgs"
     }
   }
 }

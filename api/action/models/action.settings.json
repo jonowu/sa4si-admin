@@ -16,8 +16,13 @@
       "type": "richtext"
     },
     "entries": {
-      "via": "action",
-      "collection": "entry"
+      "collection": "entry",
+      "via": "action"
+    },
+    "relatedSdgs": {
+      "via": "relatedActions",
+      "collection": "sdg",
+      "dominant": true
     }
   }
 }
