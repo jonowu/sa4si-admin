@@ -1,25 +1,19 @@
 {
   "kind": "collectionType",
-  "collectionName": "sdgs",
+  "collectionName": "categories",
   "info": {
-    "name": "SDG"
+    "name": "Category"
   },
   "options": {
     "increments": true,
     "timestamps": true
   },
   "attributes": {
-    "title": {
+    "name": {
       "type": "string"
     },
-    "description": {
-      "type": "text"
-    },
-    "body": {
-      "type": "richtext"
-    },
     "relatedActions": {
-      "via": "relatedSdgs",
+      "via": "relatedCategories",
       "collection": "action"
     }
   }

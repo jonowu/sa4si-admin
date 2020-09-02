@@ -20,8 +20,13 @@
       "via": "action"
     },
     "relatedSdgs": {
-      "via": "relatedActions",
       "collection": "sdg",
+      "via": "relatedActions",
+      "dominant": true
+    },
+    "relatedCategories": {
+      "collection": "category",
+      "via": "relatedActions",
       "dominant": true
     }
   }

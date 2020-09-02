@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "sdgs",
+  "collectionName": "resources",
   "info": {
-    "name": "SDG"
+    "name": "Resources"
   },
   "options": {
     "increments": true,
@@ -12,15 +12,8 @@
     "title": {
       "type": "string"
     },
-    "description": {
-      "type": "text"
-    },
     "body": {
       "type": "richtext"
-    },
-    "relatedActions": {
-      "via": "relatedSdgs",
-      "collection": "action"
     }
   }
 }
