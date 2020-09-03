@@ -28,6 +28,9 @@
       "collection": "category",
       "via": "relatedActions",
       "dominant": true
+    },
+    "active": {
+      "type": "boolean"
     }
   }
 }
