@@ -60,8 +60,8 @@
       "type": "string"
     },
     "entries": {
-      "collection": "entry",
-      "via": "user"
+      "via": "user",
+      "collection": "entry"
     },
     "profilePicture": {
       "model": "file",

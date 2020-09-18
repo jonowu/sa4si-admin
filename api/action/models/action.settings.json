@@ -16,8 +16,8 @@
       "type": "richtext"
     },
     "entries": {
-      "collection": "entry",
-      "via": "action"
+      "via": "action",
+      "collection": "entry"
     },
     "relatedSdgs": {
       "collection": "sdg",

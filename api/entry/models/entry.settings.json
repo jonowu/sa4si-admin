@@ -10,13 +10,17 @@
   },
   "attributes": {
     "action": {
-      "via": "entries",
-      "model": "action"
+      "model": "action",
+      "via": "entries"
     },
     "user": {
-      "via": "entries",
       "plugin": "users-permissions",
-      "model": "user"
+      "model": "user",
+      "via": "entries"
+    },
+    "kudos": {
+      "plugin": "users-permissions",
+      "collection": "user"
     }
   }
 }
