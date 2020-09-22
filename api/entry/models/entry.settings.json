@@ -14,9 +14,9 @@
       "via": "entries"
     },
     "user": {
+      "via": "entries",
       "plugin": "users-permissions",
-      "model": "user",
-      "via": "entries"
+      "model": "user"
     },
     "kudos": {
       "plugin": "users-permissions",

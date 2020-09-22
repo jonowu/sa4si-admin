@@ -60,8 +60,8 @@
       "type": "string"
     },
     "entries": {
-      "via": "user",
-      "collection": "entry"
+      "collection": "entry",
+      "via": "user"
     },
     "profilePicture": {
       "model": "file",
@@ -73,6 +73,18 @@
       ],
       "plugin": "upload",
       "required": false
+    },
+    "information": {
+      "type": "text"
+    },
+    "favoriteSdgs": {
+      "collection": "sdg"
+    },
+    "areasOfInterest": {
+      "type": "text"
+    },
+    "funFacts": {
+      "type": "string"
     }
   }
 }
