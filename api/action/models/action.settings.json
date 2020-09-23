@@ -16,8 +16,8 @@
       "type": "richtext"
     },
     "entries": {
-      "via": "action",
-      "collection": "entry"
+      "collection": "entry",
+      "via": "action"
     },
     "relatedSdgs": {
       "collection": "sdg",
@@ -31,6 +31,15 @@
     },
     "active": {
       "type": "boolean"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
     }
   }
 }

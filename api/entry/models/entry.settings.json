@@ -10,8 +10,8 @@
   },
   "attributes": {
     "action": {
-      "model": "action",
-      "via": "entries"
+      "via": "entries",
+      "model": "action"
     },
     "user": {
       "via": "entries",
