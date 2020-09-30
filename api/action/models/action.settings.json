@@ -30,7 +30,8 @@
       "dominant": true
     },
     "active": {
-      "type": "boolean"
+      "type": "boolean",
+      "default": true
     },
     "image": {
       "model": "file",
